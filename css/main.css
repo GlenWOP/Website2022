@@ -4,13 +4,32 @@ body {
     font-size: 16px;
     font-family: sans-serif;
     font-style:normal;
+    color: #333333;
+    line-height: 1.6em;
+    overflow: auto;
+    background-color: f0ebe1;
 
+
+}
+
+.index {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collection_title {
+
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.promo-banner {
+    background-color: #eae1d1;
 }
 
 /*all p tags*/
-p {
-    line-height: 1.6em;
-}
+
 
 /*all a tags*/
 a{
